@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEPSE Analysis and Prediction</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.283.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>NEPSE Analysis and Prediction Dashboard</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#data">Stock Data</a></li>
+            <li><a href="#prediction">Predictions</a></li>
+        </ul>
+    </nav>
+
+    <script src="scripts.js"></script>
+    <section id="home">
+        <h2>Welcome</h2>
+        <p>Welcome to the NEPSE Analysis and Prediction Dashboard. Here you can view real-time NEPSE stock data, historical trends, and predictions based on machine learning models.</p>
+    </section>
+
+    <section id="data">
+        <h2>Stock Data</h2>
+        <div class="data-container">
+            <!-- Data display area for stock data -->
+            <p>Latest stock data will be displayed here.</p>
+        </div>
+    </section>
+
+    <section id="prediction">
+        <h2>Predictions</h2>
+        <div class="prediction-container">
+            <!-- Prediction results display area -->
+            <p>Predictions based on machine learning models will be displayed here.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 NEPSE Analysis and Prediction Dashboard. All rights reserved.</p>
+    </footer>
+</body>
+</html>
